@@ -1,0 +1,66 @@
+header {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+header, footer {
+    padding: 2em;
+    color: black;
+    background-color: antiquewhite;
+    clear: left;
+   }
+
+h1 {
+	font-family: Helvetica;
+  font-weight: bolder;
+  font-stretch: condensed;
+  font-variant: small-caps;
+  font-size: 30px;
+  display: inline;
+  -webkit-text-stroke: 2px white;
+}
+
+nav ul {
+	list-style-type: none;
+	font-family: arial;
+}
+
+article {
+    border-left: 1px solid gray;
+    float: right;
+    overflow: hidden;
+    padding: 1em;
+    max-width: 70%;
+}
+
+h2 {
+	font-family: helvetica;
+}
+
+.p1, .p2 {
+	font-family: arial;
+	font-size: 15px;
+}
+
+#horizontal-list {
+	list-style: none;
+	float: right;
+	height: 0px;
+	margin-top: -19px;
+	}
+
+#horizontal-list li {
+		display: inline;
+	}
+
+aside{
+	float: left;
+	max-width: 30%;
+	width: 190px;
+}
+
+footer {
+	margin-top: 430px;
+	border-top: 1px solid gray;
+	margin-bottom: 10px;
+}
